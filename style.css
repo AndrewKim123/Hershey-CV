@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth; 
+     
+}
+
+body {
+    background-color: #D2691E; /* Chocolate color */
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Add a border and shadow effect to the main content */
+  main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #D2691E;
+    border-radius: 5px;
+  }
+  
+  /* Add some padding and a chocolate color background to the header */
+  header {
+    background-color: #D2691E;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  /* Add a hover effect to the links */
+  a:hover {
+    color: #FF7F50; /* Coral color */
+  }
+  
